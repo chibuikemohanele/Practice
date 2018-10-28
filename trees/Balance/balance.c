@@ -74,14 +74,12 @@ int main(int argc, char ** argv)
 
 	tNode * root = NULL;
 	
-	
-	fseek(fptr, 0, SEEK_SET);
+	root = nodeCreate(10);
+	root -> left = nodeCreate(8);
+	root -> left -> left = nodeCreate(7);
+	root -> left -> left -> left = nodeCreate(6);
+	root -> left -> left -> left -> left = nodeCreate(3);
 
-	for(int i = 0; i < size; i++)
-	{
-		fscanf(fptr, "%d", &value);
-		root = treeConstruct(root, value);
-	}
 
 	printf("----Pre Order----\n");
 	
