@@ -20,7 +20,7 @@ Stack * createStack()
 
 void createStackNode(Stack ** stack, int * value)
 {
-    if(stack == NULL)
+    if((*stack) == NULL)
     {
         return;
     }
@@ -33,8 +33,8 @@ void createStackNode(Stack ** stack, int * value)
     }
 
     new -> data = *value;
-    new -> link = stack -> top;
-    stack -> top = new;
+    new -> link = (*stack) -> top;
+    (*stack) -> top = new;
     
 }
 
@@ -58,7 +58,7 @@ void pushStack(Stack * stack, int value)
     (stack -> numNodes)++;
 }
 
-int pop(Stack * stack)
+int popStack(Stack * stack)
 {
     if(stack == NULL)
     {

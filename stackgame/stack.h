@@ -17,7 +17,7 @@ typedef struct Stack
 Stack * createStack();
 void createStackNode(Stack ** stack, int * value);
 void pushStack(Stack * stack, int value);
-int pop(Stack * stack);
+int popStack(Stack * stack);
 void destroyStack(Stack * stack);
 int retrieveTop(Stack * stack);
 int numNodes(Stack * stack);

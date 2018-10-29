@@ -12,5 +12,8 @@ $(TARGET): $(OBJS)
 .c.o: 
 	$(GCC) $(TESTFLAGS) -c $*.c 
 
+test1: $(TARGET)
+	./game 100
+	
 clean: 
 	rm -f $(OBJS) $(TARGET) 

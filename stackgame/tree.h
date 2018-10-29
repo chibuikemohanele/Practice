@@ -8,6 +8,8 @@ typedef struct tNode
 	struct tNode * right;
 }tNode;
 
-tNode * createNode();
+tNode * createNode(int value);
+void constructTree(tNode ** root, int * arr, int * index, int size);
+void destroyTree(tNode ** root);
 
 #endif
