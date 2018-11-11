@@ -17,24 +17,26 @@ tNode * createNode(int value)
 //Function is wrong!!
 void constructTree(tNode ** root, int * arr, int * index, int size)
 {
+    //Base case, when there are no more elements to put in the tree
     if(*index == size)
     {
         return;
     }
 
+    *root = createNode(arr[*index]);
     tNode * temp = *root;
 
     if(arr[*index] < temp -> data)
     {
-        temp -> left = createNode(arr[*index]);
+        //temp -> left = createNode(arr[*index]);
         (*index)++;
-        constructTree(temp -> left, arr, index, size);
+        constructTree(&(temp -> left), arr, index, size);
     }
     else
     {
-        temp -> right = createNode(arr[*index]);
+        //temp -> right = createNode(arr[*index]);
         (*index)++;
-        constructTree(temp -> right, arr, index, size);
+        constructTree(&(temp -> right), arr, index, size);
     }
 
 }
@@ -53,7 +55,7 @@ void destroyTree(tNode ** root)
         free(left);
     }
     
-      if((*root) -> right != NULL)
+    if((*root) -> right != NULL)
     {
         tNode * right = (*root) -> right;
         destroyTree(&right);

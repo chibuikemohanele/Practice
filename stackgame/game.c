@@ -6,7 +6,7 @@
 
 int main(int argc, char ** argv)
 {
-    srand(time(NULL));
+    srand(time(0));
 
     //Variable declarations
     int size = 0;
