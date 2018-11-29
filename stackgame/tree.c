@@ -15,29 +15,21 @@ tNode * createNode(int value)
 
 
 //Function is wrong!!
-void constructTree(tNode ** root, int * arr, int * index, int size)
+void constructTree(tNode ** root, int value)
 {
-    //Base case, when there are no more elements to put in the tree
-    if(*index == size)
-    {
-        return;
-    }
+   if((*root) == NULL)
+   {
+       root = createNode(value);
+   }
 
-    *root = createNode(arr[*index]);
-    tNode * temp = *root;
-
-    if(arr[*index] < temp -> data)
-    {
-        //temp -> left = createNode(arr[*index]);
-        (*index)++;
-        constructTree(&(temp -> left), arr, index, size);
-    }
-    else
-    {
-        //temp -> right = createNode(arr[*index]);
-        (*index)++;
-        constructTree(&(temp -> right), arr, index, size);
-    }
+   if(value < (*root) -> data)
+   {
+       constructTree((*root) -> left);
+   }
+   else
+   {
+       constructTree((*root) -> right);
+   }
 
 }
 

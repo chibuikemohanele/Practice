@@ -45,7 +45,7 @@ int f3(int n, int m)
 int main(int argc, char ** argv)
 {
 	//printf("answer: %d\n", f1(1, 10));
-	printf("answer: %d\n", f2(5, 10));
+	printf("answer: %d\n", f2(1, 1));
 	//printf("f3(5,10) = %d\n", f3(5, 10));
 	
 	return 1;
