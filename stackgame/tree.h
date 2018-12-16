@@ -9,7 +9,7 @@ typedef struct tNode
 }tNode;
 
 tNode * createNode(int value);
-void constructTree(tNode ** root, int * arr, int * index, int size);
+void constructTree(tNode ** root, int value);
 void destroyTree(tNode ** root);
 
 #endif

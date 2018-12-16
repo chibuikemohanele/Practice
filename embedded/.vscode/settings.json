@@ -1,6 +1,0 @@
-{
-    "terminal.integrated.env.osx": {
-        "PATH": "/Users/chibuikemohanele/.platformio/penv/bin:/Users/chibuikemohanele/.platformio/penv:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home:/Users/chibuikemohanele/Downloads/apache-maven-3.5.3/bin",
-        "PLATFORMIO_CALLER": "vscode"
-    }
-}

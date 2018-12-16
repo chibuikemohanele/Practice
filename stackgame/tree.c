@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #ifdef TREE
-
+//This file and its header are not used for the stack game anymore
 tNode * createNode(int value)
 {
     tNode * new = calloc(1, sizeof(tNode));
@@ -24,11 +24,11 @@ void constructTree(tNode ** root, int value)
 
    if(value < (*root) -> data)
    {
-       constructTree((*root) -> left);
+       constructTree(&(*root) -> left, value);
    }
    else
    {
-       constructTree((*root) -> right);
+       constructTree(&(*root) -> right, value);
    }
 
 }
