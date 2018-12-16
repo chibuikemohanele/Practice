@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Card()
+comment1.params=
+comment1.target=java.lang.String\ getFace()
+comment2.params=
+comment2.target=java.lang.String\ getSuit()
+comment3.params=
+comment3.target=void\ setFaceCard()
+comment4.params=a\ b
+comment4.target=boolean\ sameSuit(Card,\ Card)
+comment5.params=o
+comment5.target=int\ compareTo(java.lang.Object)
+numComments=6

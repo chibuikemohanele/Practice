@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=Character(java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=int\ getSherlockLife()
+comment4.params=x
+comment4.target=void\ setSherlockLife(int)
+comment5.params=
+comment5.target=int\ getCriminalLife()
+comment6.params=x
+comment6.target=void\ setCriminalLife(int)
+numComments=7

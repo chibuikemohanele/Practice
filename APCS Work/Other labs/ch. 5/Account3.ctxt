@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=initBal\ owner\ number
+comment0.target=Account3(double,\ java.lang.String,\ int)
+comment1.params=initBal\ owner
+comment1.target=Account3(double,\ java.lang.String)
+comment10.params=acct1\ acct2\ amount
+comment10.target=void\ transfer(Account3,\ Account3,\ double)
+comment2.params=owner
+comment2.target=Account3(java.lang.String)
+comment3.params=amount
+comment3.target=void\ withdraw(double)
+comment4.params=amount\ fee
+comment4.target=void\ withdraw(double,\ double)
+comment5.params=amount
+comment5.target=void\ deposit(double)
+comment6.params=
+comment6.target=double\ getBalance()
+comment7.params=
+comment7.target=java.lang.String\ getName()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment9.params=acct\ amount
+comment9.target=void\ transfer(Account3,\ double)
+numComments=11

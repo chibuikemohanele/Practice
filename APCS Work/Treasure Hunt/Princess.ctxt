@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=n\ g
+comment0.target=Princess(java.lang.String,\ Grid)
+comment1.params=
+comment1.target=void\ status()
+comment2.params=d
+comment2.target=void\ move(java.lang.String)
+comment3.params=
+comment3.target=void\ battle()
+comment4.params=
+comment4.target=void\ view()
+comment5.params=i
+comment5.target=void\ pickup(java.lang.String)
+comment6.params=
+comment6.target=int\ computeBattleNumber()
+numComments=7

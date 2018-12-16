@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=r\ c
+comment0.target=Grid(int,\ int)
+comment1.params=p
+comment1.target=void\ createKingdom(java.util.ArrayList)
+comment10.params=r\ c\ i
+comment10.target=Item\ getItem(int,\ int,\ java.lang.String)
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=i
+comment2.target=void\ addItemToPlace(Item)
+comment3.params=f
+comment3.target=void\ addFoeToPlace(Foe)
+comment4.params=r\ c
+comment4.target=void\ listPlace(int,\ int)
+comment5.params=r\ c
+comment5.target=boolean\ isValid(int,\ int)
+comment6.params=r\ c\ i
+comment6.target=boolean\ placeContains(int,\ int,\ java.lang.String)
+comment7.params=r\ c
+comment7.target=boolean\ canBattle(int,\ int)
+comment8.params=r\ c
+comment8.target=int\ getFoeBattleNum(int,\ int)
+comment9.params=r\ c
+comment9.target=void\ removeFoe(int,\ int)
+numComments=12

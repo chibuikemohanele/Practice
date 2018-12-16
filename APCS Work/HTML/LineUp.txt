@@ -1,0 +1,4 @@
+<html> 
+<applet code="LineUp.class" width=600 height=400> 
+</applet> 
+</html>
