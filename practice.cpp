@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdlib.h>
+#include <cstdlib>
 
 using namespace std;
 int main(int argc, char const ** argv)
@@ -9,7 +9,7 @@ int main(int argc, char const ** argv)
     cin >> age;
     cout << "Hello my name is Chibuikem Ohanele and my age is " << age << "." << endl;
 
-    char * str = calloc(1, sizeof(char *));
+    char * str = (char *)calloc(1, sizeof(char));
 
     str[0] = 'G';
     str[1] = 'o';
