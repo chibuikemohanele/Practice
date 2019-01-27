@@ -29,26 +29,26 @@ void loop()
     //turns on red part of led
     digitalWrite(built, HIGH);
     digitalWrite(red, HIGH);
-    delay(1000);
+    delay(100);
     digitalWrite(built, LOW);
     digitalWrite(red, LOW);
-    delay(1000);
+    delay(100);
 
     //turns on blue part of led
     digitalWrite(built, HIGH);
     digitalWrite(blue, HIGH);
-    delay(1000);
+    delay(100);
     digitalWrite(built, LOW);
     digitalWrite(blue, LOW);
-    delay(1000);
+    delay(100);
 
     //turns on green part of led
     digitalWrite(built, HIGH);
     digitalWrite(green, HIGH);
-    delay(1000);
+    delay(100);
     digitalWrite(built, LOW);
     digitalWrite(green, LOW);
-    delay(1000);
+    delay(100);
   }
   else
   {
