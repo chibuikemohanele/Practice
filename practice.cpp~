@@ -15,8 +15,7 @@ int main(int argc, char const ** argv)
     vector <int> test1;
 
     test1.push_back(1);
-    cout << test1.size() <<endl;
-    cout << test1.at(0) << endl;
+
     str[0] = 'G';
     str[1] = 'o';
     str[2] = 'P';
